@@ -1,8 +1,11 @@
-# React + Vite
+# Pagination React App
+A simple React project that demonstrates how to fetch images from an API and display them with pagination functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Introduction
+This is a small React application that uses axios to fetch a list of images from the Picsum API, and it implements pagination to navigate through the images. The project also demonstrates how to use React's useState and useEffect hooks along with React.lazy and Suspense for code splitting and loading.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Displays images fetched from an API.
+Pagination functionality to navigate through different pages of images.
+Basic UI with the ability to switch between pages (Previous/Next).
+Code splitting using React.lazy and Suspense.
